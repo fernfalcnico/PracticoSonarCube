@@ -13,6 +13,7 @@ WORKDIR /TechTalksMQConsumer
 RUN dotnet restore
 
 #COPY . ./
+#nuevo comentario
 
 RUN dotnet publish --configuration Release --output releaseOutput --no-restore
 
